@@ -1,0 +1,85 @@
+{
+    "members": [
+      {
+        "name": "Equity Bank Kenya",
+        "address": "Equity Centre, Hospital Road, Upper Hill, Nairobi",
+        "phone": "+254 763 000 000",
+        "website": "https://equitygroupholdings.com",
+        "image": "images/equity.png",
+        "membership": 3
+      },
+      {
+        "name": "Coca-Cola Beverages Africa",
+        "address": "Coca-Cola Plaza, Upper Hill, Nairobi",
+        "phone": "+254 20 272 0000",
+        "website": "https://www.cocacolasabco.com",
+        "image": "images/coca-cola.png",
+        "membership": 3
+      },
+      {
+        "name": "Centum Investment Company",
+        "address": "Two Rivers Office Towers, Nairobi",
+        "phone": "+254 709 902 000",
+        "website": "https://www.centum.co.ke",
+        "image": "images/centum.png",
+        "membership": 3
+      },
+      {
+        "name": "Family Bank",
+        "address": "Muindi Mbingu Street, Nairobi",
+        "phone": "+254 703 095 445",
+        "website": "https://familybank.co.ke",
+        "image": "images/family-bank.png",
+        "membership": 2
+      },
+      {
+        "name": "KCB Bank Kenya",
+        "address": "KCB Plaza, Upper Hill, Nairobi",
+        "phone": "+254 711 087 000",
+        "website": "https://kcbgroup.com",
+        "image": "images/kcb.png",
+        "membership": 3
+      },
+      {
+        "name": "Sasini PLC",
+        "address": "Sasini House, Loita Street, Nairobi",
+        "phone": "+254 20 221 3990",
+        "website": "https://www.sasini.co.ke",
+        "image": "images/sasini.png",
+        "membership": 2
+      },
+      {
+        "name": "Mobius Motors",
+        "address": "Industrial Area, Nairobi",
+        "phone": "+254 700 000 000",
+        "website": "https://mobiusmotors.com",
+        "image": "images/mobius.png",
+        "membership": 2
+      },
+      {
+        "name": "Kenya Power",
+        "address": "KPLC Headquarters, Stima Plaza, Nairobi",
+        "phone": "+254 20 320 1000",
+        "website": "https://www.kplc.co.ke",
+        "image": "images/kenya-power.png",
+        "membership": 3
+      },
+      {
+        "name": "Safaricom PLC",
+        "address": "Safaricom House, Waiyaki Way, Nairobi",
+        "phone": "+254 700 100 000",
+        "website": "https://www.safaricom.co.ke",
+        "image": "images/safaricom.png",
+        "membership": 3
+      },
+      {
+        "name": "Kenya Airways",
+        "address": "Kenya Airways Headquarters, Embakasi, Nairobi",
+        "phone": "+254 20 327 0000",
+        "website": "https://www.kenya-airways.com",
+        "image": "images/kenya-airways.png",
+        "membership": 3
+      }
+    ]
+  }
+  
