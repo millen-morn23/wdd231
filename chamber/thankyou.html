@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Find and connect with trusted businesses in Nairobi through our Chamber of Commerce Member Directory.">
-  <meta name="author" content="Millen Morn" />
+  <meta name="description" content="Thank you for joining the Nairobi Chamber of Commerce.">
+  <meta name="author" content="Millen Morn">
   <meta property="og:title" content="Business Directory of the Nairobi Chamber of Commerce">
   <meta property="og:description"
     content="Explore our official member directory to discover local businesses, services, and partners within the Nairobi Chamber of Commerce.">
   <meta property="og:image" content="images/logo.png">
-  <meta property="og:url" content="https://millenmorn.github.io/wdd231/chamber/directory.html">
+  <meta property="og:url" content="https://millenmorn.github.io/wdd231/chamber/thankyou.html">
   <meta property="og:type" content="website">
-  <title>Business Directory | Nairobi Chamber</title>
-  <link rel="icon" href="images/favicon.ico" />
+  <title>Thank You | Nairobi Chamber</title>
+  <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="styles/styles.css">
-  <script defer src="scripts/directory.js"></script>
   <script defer src="scripts/date.js"></script>
-  <script defer src="scripts/menu.js"></script>
 </head>
-
 <body>
+ <div class="page-wrapper">
   <header>
     <div class="logo-title">
-      <img src="images/logo.png" alt="Chamber Logo" />
+      <img src="images/logo.png" alt="Chamber Logo">
       <div class="text-block">
         <h1 class="chamber-name">Business Nairobi</h1>
         <p class="chamber-subtitle">Chamber of Commerce</p>
@@ -34,7 +30,7 @@
     <nav>
       <ul id="nav-list">
         <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="directory.html">Directory</a></li>
+        <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="#">Discover</a></li>
         <li><a href="#">About</a></li>
@@ -44,44 +40,34 @@
     </nav>
   </header>
 
-
-  <main>
-     <h1>Business Directory | Nairobi Chamber</h1>
-    <section class="directory">
-      <div class="view-toggle">
-        <button id="grid-view">🔳 Grid</button>
-        <button id="list-view">📋 List</button>
-      </div>
-      <div id="members" class="grid-view"></div>
-    </section>
+  <main class="thank-you-message">
+    <h2>Thank You!</h2>
+    <p>Your membership application has been received.</p>
+    <p>We're excited to have you join the Nairobi Chamber of Commerce.</p>
+    <a href="index.html" class="btn">Return to Home</a>
   </main>
-
+</div>
   <footer>
     <div class="footer-container">
-      <!-- Left: Contact Info -->
       <div class="footer-left">
-        <p><strong>Business Nairobi Chamber of Commerce</strong><br>
+        <p><strong>Nairobi Chamber of Commerce</strong><br>
           7th Street of Tom-mboya<br>
           Nairobi, Kenya 00100<br>
           <a href="mailto:info@nairobicc.org">info@nairobicc.org</a><br>
           (+254) 555-2300
         </p>
       </div>
-
-      <!-- Center: Social Media Icons -->
       <div class="footer-center">
         <div class="social-icons">
-          <a href="#"><img src="images/facebook-icon.png" alt="Facebook" /></a>
-          <a href="#"><img src="images/twitter-icon.png" alt="Twitter" /></a>
-          <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+          <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+          <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
         </div>
       </div>
-
-      <!-- Right: Credits -->
       <div class="footer-right">
         <p>WDD231 Class Project<br>
           Millen Morn<br>
-          &copy; <span id="year"></span> Business Nairobi Chamber of Commerce<br>
+          &copy; <span id="year"></span> Nairobi Chamber of Commerce<br>
           Last Modification: <span id="last-modified"></span>
         </p>
       </div>
@@ -89,5 +75,4 @@
   </footer>
 
 </body>
-
 </html>
