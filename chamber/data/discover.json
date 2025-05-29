@@ -1,0 +1,52 @@
+{
+  "places": [
+    {
+      "name": "Nairobi National Museum",
+      "image": "images/nairobi-museum.webp",
+      "address": "Museum Hill, Nairobi, Kenya",
+      "description": "Explore Kenya's rich heritage of art, culture, and history at this iconic museum."
+    },
+    {
+      "name": "Karura Forest",
+      "image": "images/karura-forest.webp",
+      "address": "Limuru Road, Nairobi, Kenya",
+      "description": "Enjoy scenic trails, waterfalls, and picnic spots in this urban forest reserve."
+    },
+    {
+      "name": "Giraffe Centre",
+      "image": "images/giraffe-centre.webp",
+      "address": "Lang'ata Road, Nairobi, Kenya",
+      "description": "Get up close with endangered Rothschild giraffes and support conservation efforts."
+    },
+    {
+      "name": "Bomas of Kenya",
+      "image": "images/bomas.webp",
+      "address": "Lang'ata Road, Nairobi, Kenya",
+      "description": "Experience Kenyan tribal culture through traditional music, dance, and architecture."
+    },
+    {
+      "name": "David Sheldrick Elephant Orphanage",
+      "image": "images/sheldrick.webp",
+      "address": "Magadi Road, Nairobi, Kenya",
+      "description": "Visit baby elephants rescued and rehabilitated from the wild."
+    },
+    {
+      "name": "Nairobi Railway Museum",
+      "image": "images/railway-museum.webp",
+      "address": "Uhuru Highway, Nairobi, Kenya",
+      "description": "Discover Kenya's railway legacy with vintage locomotives and historical exhibits."
+    },
+    {
+      "name": "Nairobi Kenya Arboretum",
+      "image": "images/arboretum.webp",
+      "address": "State House Road, Nairobi, Kenya",
+      "description": "A peaceful retreat for nature walks and bird watching in the heart of the city."
+    },
+    {
+      "name": "Kenya Kazuri Beads Factory",
+      "image": "images/kazuri-beads.webp",
+      "address": "Karen, Nairobi, Kenya",
+      "description": "Shop handmade ceramic jewelry while supporting local women artisans."
+    }
+  ]
+}

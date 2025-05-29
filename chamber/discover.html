@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover attractions and services around Nairobi.">
+  <meta name="author" content="Millen Morn">
+  <meta property="og:title" content="Discover Nairobi | Nairobi Chamber">
+  <meta property="og:description" content="Explore points of interest and services available in Nairobi.">
+  <meta property="og:image" content="https://millenmorn.github.io/wdd231/chamber/images/logo.png">
+  <meta property="og:url" content="https://millenmorn.github.io/wdd231/chamber/discover.html">
+  <meta property="og:type" content="website">
+  <title>Discover Nairobi | Nairobi Chamber</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/discover.css">
+  <script defer src="scripts/date.js"></script>
+  <script defer src="scripts/discover.js"></script>
+  <script defer src="scripts/menu.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.png" alt="Chamber Logo">
+      <div class="text-block">
+        <h1 class="chamber-name">Business Nairobi</h1>
+        <p class="chamber-subtitle">Chamber of Commerce</p>
+      </div>
+    </div>
+    <button class="hamburger" id="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a class="active" href="discover.html">Discover</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Podcast</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Discover Nairobi | Nairobi Chamber</h1>
+    <p id="visit-message"></p>
+
+    <div class="view-toggle">
+      <button id="grid-view">🔳 Grid</button>
+      <button id="list-view">📋 List</button>
+    </div>
+
+    <section id="discover-container" class="grid-view"></section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <p><strong>Nairobi Chamber of Commerce</strong><br>
+          7th Street of Tom-mboya<br>
+          Nairobi, Kenya 00100<br>
+          <a href="mailto:info@nairobicc.org">info@nairobicc.org</a><br>
+          (+254) 555-2300
+        </p>
+      </div>
+      <div class="footer-center">
+        <div class="social-icons">
+          <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+          <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+          <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p>WDD231 Class Project<br>
+          Millen Morn<br>
+          &copy; <span id="year"></span> Nairobi Chamber of Commerce<br>
+          Last Modification: <span id="last-modified"></span>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

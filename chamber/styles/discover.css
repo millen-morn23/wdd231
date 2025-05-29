@@ -1,0 +1,113 @@
+#discover-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+/* Switch to vertical stacking for list view */
+#discover-container.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Discover Card Styles */
+.discover-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+/* Apply hover effect only on larger screens */
+@media (min-width: 768px) {
+  .discover-card:hover {
+    transform: scale(1.02);
+  }
+}
+
+
+.discover-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* List View: Layout adjustments */
+#discover-container.list-view .discover-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+#discover-container.list-view .discover-card img {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+#discover-container.list-view .discover-card h2 {
+  margin-top: 0;
+}
+
+/* content wrapping in list view */
+#discover-container.list-view .discover-card-content {
+  flex: 3;
+}
+
+/* Titles and Paragraphs */
+.discover-card h2 {
+  margin: 0.5rem 0;
+  color: var(--primary);
+}
+
+.discover-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Toggle Buttons */
+.view-toggle {
+  text-align: center;
+  margin: 1rem;
+}
+
+.view-toggle button {
+  margin: 0 5px;
+  padding: 10px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-toggle button:hover {
+  background: var(--secondary);
+}
+
+
+.learn-more {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.learn-more:hover {
+  background-color: var(--secondary);
+  transform: scale(1.05);
+}
