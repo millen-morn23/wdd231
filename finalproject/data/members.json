@@ -1,0 +1,39 @@
+{
+  "members": [
+    {
+      "name": "GreenEarth Nurseries",
+      "image": "images/greenearth.jpg",
+      "membership": "Gold",
+      "website": "https://greenearth.com",
+      "description": "Local nursery offering indigenous plants and organic gardening solutions."
+    },
+    {
+      "name": "EcoLife Café",
+      "image": "images/ecolife.jpg",
+      "membership": "Silver",
+      "website": "https://ecolifecafe.com",
+      "description": "Organic meals and sustainable practices at affordable prices."
+    },
+    {
+      "name": "NatureWheels Bikes",
+      "image": "images/naturewheels.jpg",
+      "membership": "Bronze",
+      "website": "https://naturewheels.co.ke",
+      "description": "Eco-friendly transport options with rentals and accessories."
+    },
+    {
+      "name": "TreeHaven Furniture",
+      "image": "images/treehaven.jpg",
+      "membership": "Gold",
+      "website": "https://treehavenfurnish.com",
+      "description": "Custom-made furniture from reclaimed wood and natural materials."
+    },
+    {
+      "name": "JungleCraft Studio",
+      "image": "images/junglecraft.jpg",
+      "membership": "Silver",
+      "website": "https://junglecraft.co.ke",
+      "description": "Handcrafted eco décor inspired by African wilderness."
+    }
+  ]
+}

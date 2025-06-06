@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Kakamega Forest",
+    "image": "images/kakamega-forest.webp",
+    "address": "Western Kenya",
+    "description": "Kakamega Forest is the only tropical rainforest in Kenya and a critical biodiversity hotspot. It is home to rare plant and animal species found nowhere else in the country. The dense canopy, ancient trees, and lively bird calls make it a haven for researchers, bird watchers, and nature lovers seeking an immersive forest experience.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 200 for adults, KES 100 for children",
+    "popularActivities": [
+      "Bird watching",
+      "Nature walks",
+      "Botanical tours",
+      "Photography"
+    ]
+  },
+  {
+    "name": "Arabuko Sokoke Forest",
+    "image": "images/arabuko.webp",
+    "address": "Kilifi County",
+    "description": "Arabuko Sokoke Forest is the largest coastal forest in East Africa and one of Kenya’s most important conservation areas. It shelters endemic bird species, butterflies, and mammals such as the golden-rumped elephant shrew. The forest’s sandy trails and canopy views offer an extraordinary experience for nature enthusiasts and researchers.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 200 for adults, KES 100 for children",
+    "popularActivities": [
+      "Bird watching",
+      "Guided forest walks",
+      "Tree identification",
+      "Photography"
+    ]
+  },
+  {
+    "name": "Kereita Forest",
+    "image": "images/kereita-forest.webp",
+    "address": "Southern Aberdare Range",
+    "description": "Kereita Forest offers a mix of adventure and natural beauty. Visitors can hike to scenic waterfalls, enjoy panoramic views from the tree canopies, or engage in thrilling outdoor activities like zip-lining. The forest is rich in native flora and fauna and is perfect for both eco-tourism and family-friendly outings.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 300 for adults, KES 150 for children",
+    "popularActivities": [
+      "Hiking",
+      "Zip-lining",
+      "Canopy walks",
+      "Bird watching"
+    ]
+  },
+  {
+    "name": "Menengai Crater Forest",
+    "image": "images/menengai-forest.webp",
+    "address": "Nakuru County",
+    "description": "Located within one of Africa's largest calderas, Menengai Crater Forest is a fascinating combination of forested terrain and volcanic geology. The crater rim offers spectacular views, while the forest below provides a cool, quiet retreat rich in unique vegetation and hidden trails ideal for hiking and photography.",
+    "openingHours": "7:00 AM - 5:00 PM daily",
+    "entryFee": "KES 200 per person",
+    "popularActivities": [
+      "Crater hikes",
+      "Nature exploration",
+      "Photography",
+      "Educational tours"
+    ]
+  },
+  {
+    "name": "Mt. Kenya Forest Reserve",
+    "image": "images/mt-kenya-forest.webp",
+    "address": "Mt. Kenya Region",
+    "description": "Encircling the second-highest mountain in Africa, the Mt. Kenya Forest Reserve is a sanctuary of dense alpine vegetation, towering bamboo stands, and ancient hardwoods. It supports a wide range of wildlife including elephants and leopards, and offers breathtaking landscapes for hikers, climbers, and photographers.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 350 for adults, KES 150 for children",
+    "popularActivities": [
+      "Hiking",
+      "Wildlife viewing",
+      "Camping",
+      "Tree species exploration"
+    ]
+  },
+  {
+    "name": "Loita Forest",
+    "image": "images/loita-forest.webp",
+    "address": "Narok County",
+    "description": "Loita Forest is a sacred indigenous forest deeply valued by the Maasai community for its spiritual and ecological importance. The forest is home to medicinal plants, tall hardwoods, and diverse wildlife. It remains one of Kenya’s few unlogged forests, offering tranquil trails and strong cultural heritage experiences.",
+    "openingHours": "7:00 AM - 6:00 PM daily",
+    "entryFee": "KES 200 per person",
+    "popularActivities": [
+      "Cultural tours",
+      "Forest walks",
+      "Spiritual retreats",
+      "Bird watching"
+    ]
+  },
+  {
+    "name": "Aberdare Forest",
+    "image": "images/aberdare-forest.webp",
+    "address": "Central Kenya",
+    "description": "Aberdare Forest is part of the larger Aberdare Range, known for its mist-covered hills, bamboo thickets, and dramatic waterfalls. The forest supports rich biodiversity including elephants, rare forest antelopes, and black leopards. Visitors can enjoy cool climate hikes, camping, and some of Kenya’s most scenic vistas.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 300 for adults, KES 150 for children",
+    "popularActivities": [
+      "Waterfall hikes",
+      "Nature trails",
+      "Photography",
+      "Wildlife spotting"
+    ]
+  },
+  {
+    "name": "Ndalat Forest",
+    "image": "images/ndalat-forest.webp",
+    "address": "Nandi County",
+    "description": "Ndalat Forest is a lesser-known indigenous woodland nestled in the green highlands of Nandi. It is a peaceful place for bird watchers and hikers, offering untouched trails and a chance to explore Kenya’s western forest ecosystems in a quiet, uncrowded setting.",
+    "openingHours": "7:00 AM - 6:00 PM daily",
+    "entryFee": "KES 150 for adults, KES 50 for children",
+    "popularActivities": [
+      "Bird watching",
+      "Forest walks",
+      "Photography",
+      "Nature exploration"
+    ]
+  },
+  {
+    "name": "Karura Forest",
+    "image": "images/karura.webp",
+    "address": "Limuru Road, Nairobi",
+    "description": "A serene urban forest sanctuary offering over 50 km of walking and biking trails, stunning waterfalls, picnic spots, and rich biodiversity including monkeys and exotic bird species. Perfect for nature lovers seeking a quiet retreat within the city.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 300 for adults, KES 150 for children",
+    "popularActivities": [
+      "Hiking",
+      "Bird watching",
+      "Picnicking",
+      "Photography"
+    ]
+  },
+  {
+    "name": "City Park Market",
+    "image": "images/city-park.webp",
+    "address": "Kasarani, Nairobi",
+    "description": "A vibrant eco-market featuring local vendors selling organic produce, handmade crafts, natural skincare products, and sustainable fashion. A hub for supporting local green businesses and enjoying community events.",
+    "openingHours": "Every Saturday, 8:00 AM - 3:00 PM",
+    "entryFee": "Free",
+    "popularActivities": [
+      "Shopping organic products",
+      "Attending workshops",
+      "Sampling local food",
+      "Networking with eco-entrepreneurs"
+    ]
+  },
+  {
+    "name": "Ngong Hills",
+    "image": "images/ngong.webp",
+    "address": "Ngong Road, Nairobi",
+    "description": "A famous hiking destination featuring rolling green hills, spectacular panoramic views of Nairobi and the Great Rift Valley, and iconic wind turbines. The trail is moderately challenging, ideal for outdoor enthusiasts.",
+    "openingHours": "6:00 AM - 5:00 PM daily",
+    "entryFee": "KES 200 per person",
+    "popularActivities": [
+      "Hiking and trail running",
+      "Picnicking at scenic viewpoints",
+      "Nature photography",
+      "Bird watching"
+    ]
+  },
+  {
+    "name": "Uhuru Park",
+    "image": "images/uhuru.webp",
+    "address": "CBD, Nairobi",
+    "description": "A historic and centrally located urban park popular for leisure, public gatherings, and cultural events. It offers open green spaces, walking paths, and a boating pond, providing a refreshing break from the bustling city.",
+    "openingHours": "Open 24 hours",
+    "entryFee": "Free",
+    "popularActivities": [
+      "Relaxing and picnicking",
+      "Boating on the pond",
+      "Attending community events",
+      "Jogging and walking"
+    ]
+  },
+  {
+    "name": "Arboretum",
+    "image": "images/arboretum.webp",
+    "address": "State House Road, Nairobi",
+    "description": "A sprawling botanical garden home to over 350 species of indigenous and exotic trees. The Arboretum offers peaceful walking trails shaded by tall trees, making it ideal for nature walks, bird watching, and educational tours.",
+    "openingHours": "7:00 AM - 6:00 PM daily",
+    "entryFee": "KES 200 for adults, KES 100 for children",
+    "popularActivities": [
+      "Nature walks",
+      "Bird watching",
+      "Educational tours",
+      "Photography"
+    ]
+  },
+  {
+    "name": "Giraffe Centre",
+    "image": "images/giraffe.webp",
+    "address": "Langata, Nairobi",
+    "description": "A renowned conservation center dedicated to the endangered Rothschild’s giraffes. Visitors can interact closely with the giraffes by feeding them, learn about wildlife conservation, and explore the surrounding nature trails.",
+    "openingHours": "9:00 AM - 5:00 PM daily",
+    "entryFee": "KES 1000 for adults, KES 500 for children",
+    "popularActivities": [
+      "Feeding giraffes",
+      "Educational conservation talks",
+      "Nature walks",
+      "Photography"
+    ]
+  },
+  {
+    "name": "Oloolua Nature Trail",
+    "image": "images/oloolua.webp",
+    "address": "Karen, Nairobi",
+    "description": "A tranquil nature trail winding through indigenous forest featuring caves, natural springs, and waterfalls. The trail is perfect for bird watchers, hikers, and those wanting to explore Nairobi’s natural heritage away from the city noise.",
+    "openingHours": "7:00 AM - 6:00 PM daily",
+    "entryFee": "KES 200 per person",
+    "popularActivities": [
+      "Hiking",
+      "Bird watching",
+      "Exploring caves and waterfalls",
+      "Nature photography"
+    ]
+  },
+  {
+    "name": "Nairobi National Park",
+    "image": "images/nairobi-park.webp",
+    "address": "Langata Road, Nairobi",
+    "description": "A unique wildlife park located just outside Nairobi’s city center, home to lions, rhinos, giraffes, zebras, and hundreds of bird species. Visitors can enjoy game drives and learn about Kenya’s rich wildlife conservation efforts.",
+    "openingHours": "6:00 AM - 6:00 PM daily",
+    "entryFee": "KES 4300 for adults (foreign), KES 430 for residents",
+    "popularActivities": [
+      "Game drives",
+      "Bird watching",
+      "Picnicking",
+      "Guided tours"
+    ]
+  }
+]
