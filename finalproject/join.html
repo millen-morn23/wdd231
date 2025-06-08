@@ -38,7 +38,12 @@
   </header>
 
   <main class="container">
-    <h1>Join TreeTribe</h1>
+    <h1>🌿🌿 Join TreeTribe 🌿🌿</h1>
+    <section class="cta-section">
+      <h2>🌿 Become a Green Hero</h2>
+      <p>Join TreeTribe and take action for a cleaner, greener Nairobi. Whether you're a student, local business, or eco-enthusiast, there's a membership for you.</p>
+    </section>
+
     <form id="membershipForm" action="thankyou.html" method="get">
       <label for="fname">First Name*</label>
       <input type="text" id="fname" name="fname" required>
@@ -52,6 +57,38 @@
       <label for="phone">Phone Number</label>
       <input type="tel" id="phone" name="phone">
 
+      <section class="membership-cards">
+        <div class="card basic" data-level="basic">
+          <h3>🌱 Basic</h3>
+          <p><strong>Free forever</strong></p>
+          <ul>
+            <li>Monthly eco-news</li>
+            <li>Community group access</li>
+          </ul>
+        </div>
+
+        <div class="card silver" data-level="silver">
+          <h3>🌳 Silver</h3>
+          <p><strong>KES 1,000 / year</strong></p>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>Directory spotlight</li>
+            <li>Event invitations</li>
+          </ul>
+        </div>
+
+        <div class="card gold" data-level="gold">
+          <h3>🌟 Gold</h3>
+          <p><strong>KES 2,500 / year</strong></p>
+          <ul>
+            <li>Everything in Silver</li>
+            <li>Homepage feature</li>
+            <li>Exclusive perks</li>
+          </ul>
+        </div>
+      </section>
+
+
       <label for="membership">Membership Level*</label>
       <select id="membership" name="membership" required>
         <option value="">-- Select One --</option>
@@ -59,6 +96,18 @@
         <option value="silver">Silver - KES 1,000</option>
         <option value="gold">Gold - KES 2,500</option>
       </select>
+
+      <div id="paymentInstructions" class="hidden">
+        <h3>💵 Payment Details</h3>
+        <p>To activate your Silver or Gold membership, kindly send payment to:</p>
+        <ul>
+          <li><strong>Mpesa Paybill:</strong> 123456</li>
+          <li><strong>Account Number:</strong> TreeTribe</li>
+          <li><strong>Amount:</strong> Based on your selected tier</li>
+        </ul>
+        <p>Once paid, our team will verify and activate your premium features within 24 hours.</p>
+      </div>
+
 
       <label for="bio">Tell us about yourself</label>
       <textarea id="bio" name="bio" rows="4"></textarea>
