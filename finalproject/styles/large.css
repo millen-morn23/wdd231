@@ -1,4 +1,6 @@
-/* Hero Section for Large Screens */
+/* ——————————————————
+   1. Hero Section (Large Screens)
+———————————————————— */
 @media (min-width: 768px) {
   .hero {
     background-image: url("https://j36suarez.wordpress.com/wp-content/uploads/2016/02/beautiful-green-tree-background-image-hd-cool-wallpaper.jpg"); /* large hero for desktop */
@@ -18,8 +20,9 @@
   }
 }
 
-
-/* Discover Page Cards */
+/* ——————————————————
+   2. Discover Page – Cards & Layout
+———————————————————— */
 #cardContainer {
   display: grid;
   gap: 1.5rem;
@@ -34,14 +37,15 @@
   display: block;
 }
 
+/* Card Styles */
 .card {
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-   margin-bottom: 1rem;
 }
 
 .card:hover {
@@ -71,8 +75,7 @@
   display: inline-block;
 }
 
-
-/* Fix image size in list view */
+/* List View Adjustments */
 #cardContainer.list-view .card {
   display: flex;
   flex-direction: row;
@@ -85,20 +88,14 @@
   height: auto;
   object-fit: cover;
   flex-shrink: 0;
-  margin-bottom: 0; /* remove bottom margin for horizontal layout */
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  margin-bottom: 0;
 }
 
 #cardContainer.list-view .card-content {
   flex: 1;
-  
 }
 
-
-
-
+/* View Toggle Controls */
 .view-toggle {
   display: flex;
   gap: 1rem;
@@ -119,6 +116,7 @@
   color: #1b1b1b;
 }
 
+/* Informational Banner */
 .visit-message {
   background-color: #e8f5e9;
   padding: 0.75rem;
@@ -128,7 +126,9 @@
   font-weight: 600;
 }
 
-/* Call to Action Section join page */
+/* ——————————————————
+   3. Join Page – Membership Cards
+———————————————————— */
 .cta-section {
   text-align: center;
   margin-bottom: 2rem;
@@ -151,7 +151,7 @@
   border: 2px solid #b2d8c5;
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, border 0.3s ease;
   cursor: pointer;
 }
@@ -175,7 +175,9 @@
   font-size: 0.95rem;
 }
 
+/* ——————————————————
+   4. Utility Helpers
+———————————————————— */
 .hidden {
   display: none;
 }
-

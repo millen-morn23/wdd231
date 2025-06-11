@@ -22,6 +22,7 @@
   <script defer src="scripts/menu.js"></script>
   <script defer src="scripts/main.js"></script>
   <script defer src="scripts/spotlight.js"></script>
+  <script defer src="scripts/weather.js"></script>
 </head>
 
 <body>
@@ -47,8 +48,8 @@
   <main>
     <section class="hero">
       <div class="hero-text">
-        <h1>Welcome to TreeTribe</h1>
-        <p>Connecting Nairobi to Green Businesses & Nature-Based Communities.</p>
+        <h1><b>Welcome to TreeTribe</b></h1>
+        <p><i>Connecting Nairobi to Green Businesses & Nature-Based Communities.</i></p>
         <a href="discover.html" class="cta-button">Discover More</a>
       </div>
     </section>
@@ -56,26 +57,36 @@
     <section class="container">
       <div class="info-panels">
         <div class="panel">
-          <h2>Upcoming Events</h2>
+          <h2><b>Upcoming Events</b></h2>
           <p>🌱 Tree planting at Karura Forest – June 10<br>🧺 Eco Market at City Park – June 15</p>
         </div>
         <div class="panel">
-          <h2>Green Tip</h2>
+          <h2><b>Green Tip</b></h2>
           <p>Bring your own reusable bags and containers when shopping to cut plastic waste.</p>
         </div>
         <div class="panel">
-          <h2>Get Involved</h2>
+          <h2><b>Get Involved</b></h2>
           <p>Join our volunteer program to help with local cleanups and sustainability efforts.</p>
         </div>
       </div>
 
+       <section class="weather container">
+        <h2><b>🌦️ Nairobi Weather</b></h2>
+        <div id="weatherInfo">
+          <p><strong>Condition:</strong> <span id="description"></span></p>
+          <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+          <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+          <img id="weatherIcon" src="" alt="Weather Icon" loading="lazy">
+        </div>
+      </section>
+
       <section class="container" id="spotlight">
-        <h2>Spotlight</h2>
+        <h2><b>Spotlight</b></h2>
         <div class="spotlight-container"></div>
-        <p>Meet the individuals and organizations making a real difference in Nairobi's green movement. From
+        <p><b>Meet the individuals and organizations making a real difference in Nairobi's green movement. From
           eco-entrepreneurs and conservation leaders to everyday citizens leading sustainability efforts, our spotlight
           highlights their stories, impact, and how you can support or get involved. Together, we can build a more
-          sustainable and thriving community for all.</p>
+          sustainable and thriving community for all.</b></p>
       </section>
   </main>
 
@@ -94,6 +105,8 @@
         <a href="#">Privacy</a>
         <a href="#">Policies</a>
         <a href="#">FAQs</a>
+        <a href="https://www.loom.com/share/54cf7170451f4bc2a9fe0ce215a14837?sid=75cf44aa-ee94-44a2-905b-0667ee77744a" target="_blank"> Project Video</a>
+
        
       </div>
 
